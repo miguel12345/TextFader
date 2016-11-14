@@ -40,7 +40,7 @@ public class CharFader : BaseMeshEffect, IMeshModifier {
 
 		toFill.Clear();
 
-		for( int i = 0; i < tmpVertices.Count; i++ )
+		for( int i = 0; i < vertCount; i++ )
 		{
 			int tempVertsIndex = i & 3;
 			tmpVerticesQuad[tempVertsIndex] = tmpVertices[i];
